@@ -1,0 +1,37 @@
+a {color: #599755;text-decoration: none;font-size:18px;border-bottom: 1px solid #599755}
+a:visited {color: #599755}
+
+.label {letter-spacing: 10px;color:#509755;}
+.sub-label {letter-spacing: 3px;color:#599755;}
+.image-container {margin:10px 0px;overflow: hidden;text-align: center;max-height: 400px;}
+.image {cursor:pointer;max-width:500px;}
+.noshow {visibility: hidden;}
+.hide {display:none}
+.thumb {background: url('/images/icon_social.png');width:55px;height:55px;display: inline-block;margin-right:30px;background-size:244px;
+	text-decoration: none;border-bottom: none;}
+.thumb.google-thumb {background-position:-124px 0px;}
+.thumb.facebook-thumb {background-position:0px 0px;}
+.thumb.linkedin-thumb {background-position:-60px -60px;}
+.thumb.github-thumb {background-position:-185px -60px;}
+.thumb.twitter-thumb {background-position:-60px 0px;}
+
+
+body {margin:0;padding:0;width:100%;height:100%;background:#3D3A3F;font-family: 'Open Sans', sans-serif;}
+#main-container {color:#f5f5f5;}
+#main-canvas {position:fixed;top:0px;left:0px;z-index:9999;}
+
+#left-container, #right-container {float:left;text-align: center;}
+
+#left-container {width:60%;}
+.left-sub-containers {padding:20px;border-radius:10px;font-size:30px;background:#1F1C20;cursor:default;margin:15px;text-align: center;}
+.left-sub-containers .sub-label {text-align: left;}
+
+.detail-container {font-size:15px;text-align: left; padding:10px 20px}
+.word-clout {margin:10px 0px;}
+.word-clout div {padding:5px 10px;background:#504755;margin:5px;display: inline-block;}
+
+#name-container {letter-spacing: 3px;text-transform: uppercase;font-size:45px;}
+#portfolio-container {width:40%;display: inline-block;margin-top:0px;padding:5px;text-align: center;}
+
+#right-container {width:30%;}
+.right-sub-containers {padding:10px;border-radius:10px;font-size:20px;background:#1F1C20;cursor:default;margin:15px 5px;text-align: center;}
